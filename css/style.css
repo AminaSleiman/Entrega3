@@ -71,6 +71,15 @@ header nav ul li a:hover{
         justify-content: space-around;
         align-items: center;
     }
+
+.historia h3{
+    text-align: center;
+    padding-top: 0;
+}
+.historia h3 p{
+    text-align: center;
+    padding-top: 0;
+}
 .productos .productos-contenedor div{
         text-align: center;
         border: 1px solid black;
@@ -274,4 +283,20 @@ img, svg {
     justify-content: center;
     gap: 5px;
     transition: transform 0.1s ease;
+}
+/*------BOOTSTRAP--------*/
+
+/*------FOOTER------*/
+footer {
+    display: block
+    margin-right: auto;
+    margin-left: auto;
+    width: 100%;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    text-align: center;
+    background-color: #DBD3D8;
+}
+footer div p {
+    text-align: center;
 }
